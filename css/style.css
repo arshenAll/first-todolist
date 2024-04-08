@@ -1,7 +1,67 @@
-div{
-    color: red;
+#inputDiv{
+    display: flex;
+    justify-content: center;
+    border : 6px solid #1B5299 ;
+    background-color: #9FC2CC;
+    margin: 4px;
+    width: 24rem;
+    height:12rem;
+    align-items: center;
+    border-radius: 10px;
+    flex-flow: column wrap;
+    row-gap: 20px;
 }
-#categories {
-    color : green;
-    background-color: blue;
+.categories {
+    color : #AA6373;
+    /* background-color: rgb(74, 133, 133); */
+    display: flex;
+     justify-content: center;
+    gap:2rem;
+    align-items: baseline ;
+    flex-wrap: wrap;
+    /* border : 2px solid red;  */
+    padding: 4px; 
+    
+
+}
+.containCat{
+    background-color: #DBABBE;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 12rem;
+    margin : 1rem;
+    padding: 1rem;
+    border: 6px solid #AA6373;
+}
+.containerIncipit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.fatherDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.closeButton{
+    background-color: #1B5299;
+    border: none;
+    border-radius: 4px;
+    
+}
+.inputButton{
+    background-color: #1B5299;
+    border: none;
+    border-radius: 4px;
+    color: #F1ECCE;
+}
+.niceFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    color:  #F1ECCE;
+
 }
